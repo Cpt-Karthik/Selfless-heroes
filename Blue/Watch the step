@@ -1,0 +1,4 @@
+if e == switch :
+	step(e)
+endif
+step(w)
