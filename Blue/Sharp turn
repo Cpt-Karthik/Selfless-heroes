@@ -1,0 +1,23 @@
+4 steps / (6 lines)	
+
+if w == floor :
+	step(sw)
+	fireball(s)
+endif
+step(ne)
+if n == bonfire :
+	fireball(n)
+endif
+
+
+-------------------------------------
+
+
+(5 steps) / 5 lines
+
+step(sw)
+fireball(s)
+step(ne)
+if n == bonfire :
+	fireball(n)
+endif

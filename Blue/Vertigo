@@ -1,0 +1,10 @@
+if w == switch :
+	step(w)
+endif
+if n == switch :
+	step(n)
+endif
+if s == switch :
+	step(s)
+endif
+step(e)

@@ -1,0 +1,33 @@
+54 steps / (15 lines)	
+
+Credits to AiSard
+if s == bonfire :
+	a:
+	step(e)
+	fireball(sw)
+	fireball(s)
+	fireball(se)
+	step(e)
+	step(e)
+	jump a
+endif
+b:
+step(e)
+fireball(nw)
+fireball(n)
+fireball(ne)
+step(e)
+step(e)
+jump b
+
+
+---------------------------------
+
+
+(94 steps) / 4 lines
+
+a:
+fireball(s)
+fireball(n)
+step(e)
+jump a
