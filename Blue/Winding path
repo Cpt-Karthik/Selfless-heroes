@@ -1,0 +1,40 @@
+32 steps / (13 lines)	
+
+a:
+step(e)
+step(e)
+step(e)
+if se == floor ||
+  ne == floor :
+	if ne == floor &&
+	  se == floor :
+		fireball(e)
+		step(e)
+		fireball(e)
+	endif
+	if se == floor :
+		step(se)
+	else
+		step(ne)
+	endif
+endif
+jump a
+
+-------------------------------------
+
+
+
+a:
+step(e)
+fireball(e)
+if e != bonfire &&
+  e != floor &&
+  ne == floor :
+	step(ne)
+endif
+if e != bonfire &&
+  e != floor &&
+  se == floor :
+	step(se)
+endif
+jump a
