@@ -1,0 +1,53 @@
+22 steps / (27 lines)	
+
+step(e)
+step(e)
+step(e)
+step(e)
+if se == floor :
+	step(se)
+	jump c
+endif
+step(e)
+step(e)
+if se == floor :
+	step(se)
+	jump a
+endif
+c:
+step(e)
+step(e)
+step(e)
+step(e)
+a:
+step(e)
+step(e)
+step(e)
+if ne == floor :
+	step(ne)
+endif
+step(e)
+step(e)
+step(e)
+step(e)
+fireball(ne)
+fireball(n)
+
+---------------------------------------------
+
+
+(86 steps) / 8 lines
+a:
+if e == floor &&
+  ne != floor &&
+  se != floor :
+	step(e)
+endif
+if ne == floor :
+	fireball(ne)
+	step(ne)
+endif
+if se == floor :
+	step(se)
+endif
+jump a
