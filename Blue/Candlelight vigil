@@ -1,6 +1,5 @@
 54 steps / (15 lines)	
 
-Credits to AiSard
 if s == bonfire :
 	a:
 	step(e)
